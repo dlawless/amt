@@ -33,6 +33,48 @@ router.get('/ac', function(req, res) {
   res.render('ac', { title: 'Advisory Circulars (AC)' });
 });
 
+router.get('/inspections', function(req, res) {
+  res.render('inspections', { title: 'Inspections' });
+});
+
+router.get('/drawings', function(req, res) {
+  res.render('drawings', { title: 'Drawings' });
+});
+
+router.get('/weightbalance', function(req, res) {
+  res.render('weightbalance', { title: 'Weight & Balance' });
+});
+
+
+router.get('/records', function(req, res) {
+  res.render('records', { title: 'Records' });
+});
+
+
+router.get('/fuel', function(req, res) {
+  res.render('fuel', { title: 'Fuel' });
+});
+
+
+
+router.get('/fire', function(req, res) {
+  res.render('fire', { title: 'Fire' });
+});
+
+
+router.get('/labeling', function(req, res) {
+  res.render('labeling', { title: 'Labeling' });
+});
+
+
+router.get('/electricity', function(req, res) {
+  res.render('electricity', { title: 'Electricity' });
+});
+
+
+
+
+
 
 router.get('/part43', function(req, res) {
   res.render('part43', { title: 'FAR 43' });
@@ -55,6 +97,9 @@ router.get('/servicebulletin', function(req, res) {
   res.render('servicebulletin', { title: 'Service Bulletins' });
 });
 
+router.get('/majors', function(req, res) {
+  res.render('majors', { title: 'Major Repairs and Alterations' });
+});
 
 
 router.get('/forms', function(req, res) {

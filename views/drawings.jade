@@ -1,0 +1,130 @@
+extends layout
+block content
+  h3= title
+  ul
+    li Working drawing - most common
+      ul
+        li Detail drawing
+          ul
+            li All information needed to construct a part
+              ul
+                li Dimensions
+                li Materials
+                li Finish type
+            li Draw to scale and dimension
+        li Assembly drawing
+          ul
+            li Depicts relationship between two or more parts
+            li Reference by part number
+            li Specifies type and number of fasteners
+            li No materials specified
+        li Installation drawing
+          ul
+            li Sub-assemblies brought together
+            li General arrangement / position of parts with respect to the aircraft
+            li Fasteners specified
+            li May include exploded view
+            li Instructions required for installation
+            li Non-involved portions shown using phantom lines
+    li Sectional Drawings
+      ul
+        li Shows internal construction or shape of part
+        li 4 Types
+          ol
+            li Revolved section - simple item with no internal parts (shape)
+            li Removed section - cut by cutting plane line and removed
+            li Complete section - complex assemblies (cable connections)
+            li Half section - need to see inside and outside
+    li Exploded View Drawings
+      ul
+        li Show every part of an assembly
+    li Block Diagrams
+      ul
+        li Consists or individual blocks that represent several components (printed circuit board)
+        li Helps locate component that's receiving correct input but providing incorrect output
+    li Logic Flow Charts
+      ul
+        li Expressses action, not construction or engineering information
+    li Electrical Wiring Diagram
+    li Pictorial Diagram
+      ul
+        li Pictures of components instead of conventional electrical symbols
+    li Schematic Diagram
+      ul
+        li Illustrate principle of operation
+        li Does not show parts as they appear or function
+    li Orthographic Projections
+      ul
+        li An orthographic project can show as many as six (6) views
+          ul
+            li Top / Bottom
+            li Front / Rear
+            li Left / Right
+        li View from multiple angles
+        li Hidden edges and contours shown with dashed lines
+        li Two-view drawing
+        li Three-view drawing
+          ul
+            li Front
+            li Right
+            li Top
+        li Hidden lines - dashed
+        li Center lines - extended lines outside drawing
+    li Auxiliary Drawing
+      ul
+        li When orthographic 90 degree views need additional views
+    li Isometric Drawing
+      ul
+        li Most used in aircraft
+        li Proejction of 3D object on flat plane
+        li 3 sides visible
+        li All distances are the same length as the actual sides
+    li Oblique Drawing
+      ul
+        li Isometric drawing with one object face parallel to the drawing plane
+    li Perspective Drawing
+      ul
+        li Similar to isometric but the rays meet at a distant point on the horizon - vanishing point
+    li Lines
+      ul
+        li Visible - solid
+        li Hidden - dashed
+        li Center - extend out of drawing and include cross-hairs in the center of circles
+        li Extension - point where measurement is made
+        li Dimension - broken in middle for dimension
+        li Cutting plane - heavy line with arrows showing direction
+        li Phantom - shows presence of another part - two dashes
+        li Short break - hand break
+        li Section - shaded
+        li Long break - jagged
+        li Leader - points to note, number, or other information
+    li Dimension
+      ul
+        li Dimension that appears on a drawing represents the perfect size (nominal dimensions)
+    li Allowance - difference between the nominal dimenson and the upper and lower limit
+    li Tolerance - difference between the extreme permissible dimensions
+    li Title Block
+      ul
+        li Title
+        li Size
+        li Number
+        li Scale
+        li Page
+        li Responsibility
+        li Standards
+        li Bill of materials
+        li Application
+    li Revision Block
+    li Notes
+    li Zones
+      ul
+        li Mark edge every 12 inches
+        li Bottom right - row A, column 1
+    li Steps to Sketching
+      ol
+        li Determine necessary views
+        li Block in views
+        li Complete details
+        li Sketch extension and dimension lines
+        li Complete by adding dimensions, notes, etc.
+    li Perpendicular bisector - find the center
